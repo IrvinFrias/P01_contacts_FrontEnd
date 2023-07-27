@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CommonViewsModule} from "./common-views/common-views.module";
 import {RouterOutlet} from "@angular/router";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {ContactsModule} from "./contacts/contacts.module";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     CommonViewsModule,
     RouterOutlet,
-    NgbModule
+    NgbModule,
+    ContactsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

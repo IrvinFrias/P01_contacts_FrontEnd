@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-var.component.css']
 })
 export class NavVarComponent {
+  isMenuCollapsed: boolean = true;
 
 }
